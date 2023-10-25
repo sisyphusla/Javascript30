@@ -313,7 +313,7 @@ section #text .challengeTitle {
     overflow-x: scroll;
     overflow: hidden;
     scroll-behavior: smooth;
-    background: #000;
+    background: rgb(155, 155, 155);
     border-radius: 15px;
     border: rgb(45, 47, 53) 35px solid;
     overflow: hidden;
@@ -352,7 +352,7 @@ section #text .challengeTitle {
 }
 
 .grid-container ul li:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
     transition-duration: 500ms;
     z-index: 9999;
     box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.15);
