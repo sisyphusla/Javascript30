@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 30</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="./jQuery/jquery-3.6.0.js"></script>
+    <script src="./bootstrap/js/jquery.min.js"></script>
+    <script src="./bootstrap/js/popper.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <a href="" class="logo">Chen</a>
+        <ul class="menu" id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <!-- <button id="btn">...</button> -->
+        </ul>
+        <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <section>
+        <div>
+            <h2 id="text" class="text"><span class="JS">JavaScript</span><span class="JS">30</span><br><span
+                    class="challengeTitle">30
+                    Day Vanilla JS Coding Challenge</span></h2>
+
+        </div>
+        <img src="./bgImg.jpg" alt="">
+        <!-- <div class="main">
+            <canvas id="canvas"></canvas>
+        </div> -->
+    </section>
+
+    <!-- https://picsum.photos/300/200 -->
+    <!-- <h1 class="jsList">JavaScript30 List</h1> -->
+    <div class="grid-container">
+        <ul class="gridUl">
+            <li>
+                <div>
+                    <h2>DAY 01</h2>
+                    <div>
+                        <img src="./js30Img/day01.webp" class="gridImg" alt="" style="height: 150px;">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個按鍵發聲的爵士鼓</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/01/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 02</h2>
+                    <div>
+                        <img src="./js30Img/day02.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個實時時鐘</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/02/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 03</h2>
+                    <div>
+                        <img src="./js30Img/day03.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作可控制圖片邊框、模糊與黑白的濾鏡效果</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/03/index-START.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 04</h2>
+                    <div>
+                        <img src="./js30Img/day04.jpg" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">filter, map, sort, reduce, includes, split的應用案例</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/04/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 05</h2>
+                    <div>
+                        <img src="./js30Img/day05.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個動畫展開圖片的效果</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/05/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 06</h2>
+                    <div>
+                        <img src="./js30Img/day06.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個即時顯示結果的搜尋框</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/06/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 07</h2>
+                    <div>
+                        <img src="./js30Img/day07.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">some, every, find, findIndex, slice, spared的應用案例</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/07/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 08</h2>
+                    <div>
+                        <img src="./js30Img/day08.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個HTML5的Canvas畫布</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/08/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 09</h2>
+                    <div>
+                        <img src="./js30Img/day09.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">介紹Chrome開發工具中DOM break及各種console的格式</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/09/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 10</h2>
+                    <div>
+                        <img src="./js30Img/day10.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作Shift+左鍵在check list中連續選取的效果</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/10/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 11</h2>
+                    <div>
+                        <img src="./js30Img/day11.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">使用HTML5的video tag來製作各種播放器功能</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/11/index.html" class="gridBtnstyle" target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 12</h2>
+                    <div>
+                        <img src="./js30Img/day12.jpg" class="gridImg" alt="" style="height: 150px;">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個判斷連續輸入指定內容的功能</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/12/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 13</h2>
+                    <div>
+                        <img src="./js30Img/day13.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個當畫面滑至指定位置時載入圖片的效果</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/13/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 14</h2>
+                    <div>
+                        <img src="./js30Img/day14.jpg" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">介紹陣列與物件的引用及複製</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/14/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 15</h2>
+                    <div>
+                        <img src="./js30Img/day15.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個使用localStorage做的菜單增刪功能</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/15/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 16</h2>
+                    <div>
+                        <img src="./js30Img/day16.webp" class="gridImg" alt="" style="height: 150px;">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個用滑鼠使文字陰影偏移的效果</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/16/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 17</h2>
+                    <div>
+                        <img src="./js30Img/day17.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">介紹如何將陣列在排除部分文字的情況下排序</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/17/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 18</h2>
+                    <div>
+                        <img src="./js30Img/day18.jpg" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">使用Array的map()與reduce()來取得播放清單總秒數</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/18/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 19</h2>
+                    <div>
+                        <img src="./js30Img/day19.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">使用getUserMedia與cavas來做影像濾鏡效果</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/19/index.html" class="gridBtnstyle" target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 20</h2>
+                    <div>
+                        <img src="./js30Img/day20.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製做一個語音輸入轉文字的工具</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/20/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 21</h2>
+                    <div>
+                        <img src="./js30Img/day21.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製做一個可以顯示當前方位與速率的工具</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/21/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 22</h2>
+                    <div>
+                        <img src="./js30Img/day22.webp" class="gridImg" alt="" style="height: 150px;">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作會跟著滑鼠移動的HightLight效果</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/22/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 23</h2>
+                    <div>
+                        <img src="./js30Img/day23.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製做一個文字轉語音輸出的工具</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/23/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 24</h2>
+                    <div>
+                        <img src="./js30Img/day24.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個依捲動位置顯示不同樣式的置頂選單</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/24/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 25</h2>
+                    <div>
+                        <img src="./js30Img/day25.jpg" class="gridImg" alt="" style="height: 150px;">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">解析addEventListener中捕捉、傳遞、與單次執行方法</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/25/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 26</h2>
+                    <div>
+                        <img src="./js30Img/day26.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個隨著滑鼠移動展開的選單效果</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/26/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 27</h2>
+                    <div>
+                        <img src="./js30Img/day27.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製做一個可拖曳移動的水平捲軸</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/27/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 28</h2>
+                    <div>
+                        <img src="./js30Img/day28.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個可控制影片速率的拉把</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/28/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 29</h2>
+                    <div>
+                        <img src="./js30Img/day29.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製作一個可自定義時間的倒數計時器</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/29/index.html" class="gridBtnstyle" target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>DAY 30</h2>
+                    <div>
+                        <img src="./js30Img/day30.webp" class="gridImg" alt="">
+                    </div>
+                    <div class="grid-container-line"></div>
+                    <div class="contentDesc">製做一個打地鼠的小遊戲</div>
+                    <div class="gridBtn">
+                        <a href="./JavaScript30-master/30/index-FINISHED.html" class="gridBtnstyle"
+                            target="_blank">Demo</a>
+                        <!-- <button class="gridBtnstyle">筆記</button> -->
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    <div id="ball" class="mouseBall"></div>
+    <footer>
+        <div class="copyRight">&copy; copyright 2022</div>
+    </footer>
+
+</body>
+
+<script>
+    /* showOutline */
+
+    $("#btn").click(function () {
+        $("*").toggleClass("showOutline");
+    });
+
+    /* jsTextMove */
+
+    let textMove = document.querySelector('#text');
+    let challengeTitle = document.querySelector('.challengeTitle');
+
+    window.addEventListener('scroll', function (e) {
+        let value = window.scrollY;
+
+        textMove.style.top = 35 + value * -0.3 + '%'
+        // console.log(textMove.offsetTop)
+        if (textMove.offsetTop <= 0) {
+            // alert('OK')
+            // textMove.offsetTop = 0;
+            textMove.style.top = 8 + "px";
+            textMove.style.position = 'fixed';
+            challengeTitle.style.display = 'none';
+        } else {
+            challengeTitle.style.display = 'inline-block';
+        }
+        console.log(textMove.offsetTop)
+    });
+    /* gridmove */
+    //滑鼠按著時可以拖移
+    //滑鼠鬆開時取消拖移
+    const list = document.querySelector(".grid-container");
+    let startX = 0;
+    let startScroll = 0;
+    let startTime = 0;
+    let moved = false;
+    // let liBox = document.querySelector('.grid-container li')
+    // console.log(liBox)
+    const startDrag = function (e) {
+        // console.log(e);
+        list.classList.add("active");
+        startX = e.pageX;
+        startScroll = list.scrollLeft;
+        startTime = new Date().getTime();
+        moved = false;
+    };
+    const dragHandler = function (e) {
+        e.preventDefault();
+        if (list.classList.contains("active")) {
+            moved = true;
+            let move = e.pageX - startX;
+            // console.log('move'+move)
+            // console.log('startscroll'+startScroll)
+            // console.log(startScroll - move *3)
+            // startX = e.pageX;
+            // list.scrollLeft -= move * 5;
+            list.scrollLeft = startScroll - move * 3;
+            // console.log(list.clientWidth)
+            // console.log(liBox.offsetWidth)
+            // if (move < 0) {
+
+            ///////////////////////////////////////////////////////////////
+            //     list.scrollLeft = startScroll + list.clientWidth;
+            //     // console.log(list.offsetWidth)
+            //     return moved = false;
+
+            // }
+            // else {
+            //     list.scrollLeft = startScroll - list.clientWidth;
+            //     // console.log(list.scrollLeft)
+            //     return moved = false;
+            // }
+            //////////////////////////////////////////////////////////////
+        }
+    };
+    const stopDrag = function (e) {
+        list.classList.remove("active");
+        if (new Date().getTime() - startTime <= 500) {
+            if (e.pageX > startX) {
+                // console.log("swipe right");
+            } else if (e.pageX < startX) {
+                // console.log("swipe left");
+            }
+        }
+    };
+    list.addEventListener("mousedown", startDrag); //touchstart
+    list.addEventListener("mousemove", dragHandler); //touchmove
+    list.addEventListener("mouseup", stopDrag); //touchend
+    list.addEventListener("mouseleave", stopDrag);
+
+    document.querySelectorAll(".gridBtn a").forEach(dom => {
+        dom.addEventListener("click", function (e) {
+            if (moved) {
+                e.preventDefault();
+            }
+            event.cancelBubble = true;
+        });
+    });
+
+    /* fuckMenuResponsive */
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.menu');
+    const ball = document.querySelector('.mouseBall')
+
+    hamburger.addEventListener('click', function () {
+        this.classList.toggle('is-active');
+        menu.classList.toggle('showTheMenu');
+        ball.classList.toggle('yellowBall');
+    });
+
+    /* ballEnter */
+    const ballInUl = document.querySelector('.gridUl');
+    const ballInLogo = document.querySelector('.logo');
+    const ballInMenu = document.querySelector('.menu');
+    ballInUl.addEventListener('mouseenter', function () {
+        ball.classList.add('ballInUl')
+    });
+    ballInUl.addEventListener('mouseleave', function () {
+        ball.classList.remove('ballInUl')
+    });
+
+    ballInLogo.addEventListener('mouseenter', function () {
+        ball.classList.add('ballInLogo')
+    });
+    ballInLogo.addEventListener('mouseleave', function () {
+        ball.classList.remove('ballInLogo')
+    });
+
+    ballInMenu.addEventListener('mouseenter', function () {
+        ball.classList.add('ballInLogo')
+    });
+    ballInMenu.addEventListener('mouseleave', function () {
+        ball.classList.remove('ballInLogo')
+    });
+
+    /* moveBall */
+    window.addEventListener('mousemove', ballMove);
+    function ballMove(e) {
+        var ball = document.querySelector('#ball');
+        ball.style.top = e.pageY + "px";
+        ball.style.left = e.pageX + "px";
+    };
+
+
+</script>
+
+
+</html>
