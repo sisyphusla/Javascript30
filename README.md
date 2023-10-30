@@ -1,6 +1,6 @@
 # javascript 30 
 
-## [Demo網站](https://sisyphusla.github.io/js30/)
+## [Demo網站](https://sisyphusla.github.io/Javascript30/)
 
 JS30 是由加拿大工程師Wes Bos所建立一系列免費課程，課程中可以學到很多Javascript基礎應用．
 
